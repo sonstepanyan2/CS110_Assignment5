@@ -18,3 +18,4 @@ console.log(utils.matrixProduct(mat1,mat2));
 console.log(utils.matrixSum(mat1,mat2));
 console.log(utils.sumofrows(mat1));
 console.log(utils.countWords(text));
+console.log(utils.trim(text));
