@@ -12,7 +12,7 @@ let mat2 = [
     [4,5,6],
     [5,5,5]
 ]
-let text = "   This is my assignment";
+let text = "   This is my assignment  ";
 
 console.log(utils.matrixProduct(mat1,mat2));
 console.log(utils.matrixSum(mat1,mat2));
