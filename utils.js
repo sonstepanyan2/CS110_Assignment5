@@ -1,3 +1,4 @@
+//ex1
 function matrixProduct (mat1, mat2) {
     let product = []
     if (mat1[0].length !== mat2.length){
@@ -18,7 +19,8 @@ function matrixProduct (mat1, mat2) {
     }
     console.log(matrixProduct);
     
-    
+    //ex2
+
     function blankmatrix(matrix = []) {
         let newMat = [];
         for (let i = 0; i < matrix.length; i++) {
@@ -45,7 +47,8 @@ function matrixProduct (mat1, mat2) {
     console.log(matrixSum);
     
     
-    
+    //ex3
+
     function sumofarr(mat1) {
         let suma = 0;
         for (let i = 0; i< mat1.length; i++) {
@@ -62,7 +65,7 @@ function matrixProduct (mat1, mat2) {
     }
     console.log(sumofrows);
     
-    
+    //ex4
     
     function countWords(str)
     {
@@ -91,6 +94,25 @@ function matrixProduct (mat1, mat2) {
         return result;
     }
     console.log(countWords);
+
+//ex5
+
+function trim(string){
+        let nospace = " ";
+        let i = 0
+        for (i<string.length; string[i]===" "; i++) {
+        }
+        let a = string.length-1
+        if(string[a]===" "){
+        a--;
+     }
+        for(i; i<=a; i++){
+            nospace = nospace + string[i]
+        }
+        return nospace
+    }
+    console.log(trim);
+    
     
     
     
@@ -99,5 +121,6 @@ function matrixProduct (mat1, mat2) {
         matrixSum,
         matrixProduct,
         sumofrows,
-        countWords
+        countWords,
+         trim
     }
